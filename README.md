@@ -12,5 +12,8 @@ Such a device should be known as *The FireBalls*
 ## The Fireballs
 
 ## Monitoring Testosterone levels
+Not viable via blood sampling, we need to find an other way to monitor the testosterone levels evolution day by day.
 ### Testosterone levels proxies
+There are severals, but Nocturnal penile tumescence seems to have linear relation with free testosterone levels in the body, regardless of age.
 ### The FireSword
+A system for Nocturnal penile tumescence (NPT) tracking using a purpose-built pressure sensor in the shape of a ring and a datalogger.
