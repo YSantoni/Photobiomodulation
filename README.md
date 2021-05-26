@@ -7,4 +7,10 @@ It has a wavelengthdependent capability to alter cellular behavior in the absenc
 
 To explore the possibilities of LLLT, we propose a system consisting of multiple light emmitting diodes (LED) of wavelenght in the 657nm range, 727 nm range and 860nm range embedded in a hockey cup and working on a rechargeable battery.
 The goal is to study the effects of near infrared light on the testis, and subsequently the effect on testosterone levels and fertility.
-Such a device should be known as *The FireBall*
+Such a device should be known as *The FireBalls*
+
+## The Fireballs
+
+## Monitoring Testosterone levels
+### Testosterone levels proxies
+### The FireSword
