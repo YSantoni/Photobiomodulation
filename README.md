@@ -10,12 +10,12 @@ The goal is to study the effects of near infrared light on the testis, and subse
 Such a device should be known as *The FireBall*
 
 ## The Fireball
-A first proof of concept was built using two high power LED, called *NASA LED* because used by NASA to make plants grow in space since 1995, and emitting wavelenght of 660nm.
+A first proof of concept was built using two high power LED, called *NASA LED* because used by NASA to grow plants in space since 1995, with an emitting wavelenght of 660nm.
 
 ![fireball1](https://user-images.githubusercontent.com/84445386/119970668-4fdd8900-bfb0-11eb-8a42-583f6439f54a.PNG)
 ![fireball2](https://user-images.githubusercontent.com/84445386/119970807-78fe1980-bfb0-11eb-9a8e-93a6b6381d15.PNG)
 
-Two participant, males between 29 and 31, used the device 30 min per day just before sleep. We observed a 18.5% increase in total testosterone levels in one participant after 3 weeks of this protocol. We observed a 9.6% in the other participant after 1 week. Those anecdotal evidence that something is maybe working as expeted prompted the realisation of a more advanced prototype: *The FireBall*
+Two participant, males between 29 and 31, used the device 30 min per day just before sleep. We observed a 18.5% increase in total testosterone levels in one participant after 3 weeks of this protocol. We observed a 9.6% increase in the other participant after 1 week. Those anecdotal evidence that something is maybe working as expeted prompted the realisation of a more advanced prototype: *The FireBall*
 
 ## Monitoring Testosterone levels
 Not viable via blood sampling, we need to find an other way to monitor the testosterone levels evolution day by day.
