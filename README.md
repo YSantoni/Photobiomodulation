@@ -7,9 +7,11 @@ It has a wavelengthdependent capability to alter cellular behavior in the absenc
 
 To explore the possibilities of LLLT, we propose a system consisting of multiple light emmitting diodes (LED) of wavelenght in the 657nm range, 727 nm range and 860nm range embedded in a hockey cup and working on a rechargeable battery.
 The goal is to study the effects of near infrared light on the testis, and subsequently the effect on testosterone levels and fertility.
-Such a device should be known as *The FireBalls*
+Such a device should be known as *The FireBall*
 
-## The Fireballs
+## The Fireball
+A first proof of concept was built using two high power LED, called *NASA LED* because used by NASA to make plants grow in space since 1995, and emitting wavelenght of 660nm.
+Two participant, males between 29 and 31, used the device 30 min per day just before sleep. We observed a 18.5% increase in total testosterone levels in one participant after 3 weeks of this protocol. We observed a 9.6% in the other participant after 1 week. Those anecdotal evidence that something is maybe working as expeted prompted the realisation of a more advanced prototype: *The FireBall*
 
 ## Monitoring Testosterone levels
 Not viable via blood sampling, we need to find an other way to monitor the testosterone levels evolution day by day.
