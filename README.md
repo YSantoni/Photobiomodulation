@@ -31,6 +31,11 @@ To explore those parameters, we need a fully controlable *FireBall* via a microc
 Three type of high power LED from OSRAM opto semi-conductors are driven by three N-channel MOSFET. The PWM signal is produced by an Arduino NANO with an ATmega328p microcontroller. As the PWM frequency will be somewhere under 100Hz, we chose to ommit gate drivers for the Mosfets on this prototype.
 This device can draw more than two amps at full power, for a radiant flux of 2400mW and an electrical to optical efficiency of around 20%.
 
+## The Fireball V3
+
+To omit gate drivers for the Mosfets was a mistake as they can get pretty hot due to the long-ass time it takes to the gate to switch without a driver.
+A duty cycle of 50% should do the trick, so we can trow away the microcontroller in favor of a pair of LM555 for the PWM signal.
+
 ## Monitoring Testosterone levels
 Not viable via blood sampling, we need to find an other way to monitor the testosterone levels evolution day by day.
 ### Testosterone levels proxies
