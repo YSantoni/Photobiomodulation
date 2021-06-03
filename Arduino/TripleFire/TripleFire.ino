@@ -2,13 +2,13 @@
 #define LED727 4
 #define LED860 8
 
-int ONinterval657 = 20;           // interval at which to blink on (microseconds)
-int ONinterval727 = 20; 
-int ONinterval860 = 20;   
+int ONinterval657 = 5000;           // interval at which to blink on (microseconds)
+int ONinterval727 = 5000; 
+int ONinterval860 = 5000;   
 
-int OFFinterval657 = 60;           // interval at which to blink off (microseconds)
-int OFFinterval727 = 60; 
-int OFFinterval860 = 60;
+int OFFinterval657 = 5000;           // interval at which to blink off (microseconds)
+int OFFinterval727 = 5000; 
+int OFFinterval860 = 5000;
 
 
 int ledState657 = LOW;  
