@@ -33,8 +33,8 @@ This device can draw more than two amps at full power, for a radiant flux of 240
 
 ## The Fireball V3
 
-To omit gate drivers for the Mosfets was a mistake as they can get pretty hot due to the long-ass time it takes to the gate to switch without a driver.
-A duty cycle of 50% should do the trick, so we can trow away the microcontroller in favor of a pair of LM555 for the PWM signal.
+To omit gate drivers for the Mosfets was a mistake as they can get pretty hot due to the long-ass time it takes to the gate to switch with so little current from the microcontroller pins.
+A duty cycle of 50% should do the trick, so we can trow away the microcontroller in favor of a pair of LM555 for the PWM signal. Furthermore, as the LM555 can source 200mA from its output, it should be enough to not use mosfets gate drivers
 A small fan will be added in the hope of mitigating thermal effects on los corones.
 
 ## Monitoring Testosterone levels
