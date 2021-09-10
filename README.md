@@ -11,9 +11,9 @@ https://user-images.githubusercontent.com/84445386/119996483-1a946380-bfcf-11eb-
 
 To explore the possibilities of LLLT, we propose a system consisting of multiple light emmitting diodes (LED) of wavelengths in the 657nm range, 727 nm range and 860nm range embedded in a hockey cup and working on a rechargeable battery.
 The goal is to study the effects of near infrared light on the testis, and subsequently the effect on testosterone levels and fertility.
-Such a device should be known as *The FireBall*
+Such a device should be known as *The FireBalls*
 
-## The Fireball
+## The Fireballs
 A first proof of concept was built using two high power LED, called *NASA LED* because used by NASA to grow plants in space since 1995, with an emitting wavelength of 660nm. The device as an radiant flux of around 200mW.
 
 ![fireball1](https://user-images.githubusercontent.com/84445386/119970668-4fdd8900-bfb0-11eb-8a42-583f6439f54a.PNG)
@@ -21,7 +21,7 @@ A first proof of concept was built using two high power LED, called *NASA LED* b
 
 Two participant, males between 29 and 31, used the device 30 min per day just before sleep. We observed a 18.5% increase (via blood sampling) in total testosterone levels in one participant after 3 weeks of this protocol. We observed a 9.6% increase in the other participant after 1 week. Those anecdotal evidence that something is maybe working as expeted prompted the realisation of a more advanced prototype: *The FireBall V2*
 
-## The Fireball V2
+## The Fireballs V2
 
 There is a lot of litterature on the subject of LLLT, unfortunately, we couldn't find any consensus on the optimal parameters for a device applied on the testis. Parameters such as : intensity of radiant flux, optimal wavelenght, Pulse Width Modulation (PWM) effect on depth of penetration and thermal degradation of the tissues, optimal time window of application remain to be determined.
 To explore those parameters, we need a fully controlable *FireBall* via a microcontroller, and different wavelengths to play with. The wavelenghts 657nm, 727nm and 860nm were chosen because they are the most common occurence in photobiomodulation litterature, but without definitive evidence on wich is the best performing for a chosen usecase.
@@ -31,7 +31,7 @@ To explore those parameters, we need a fully controlable *FireBall* via a microc
 Three type of high power LED from OSRAM opto semi-conductors are driven by three N-channel MOSFET. The PWM signal is produced by an Arduino NANO with an ATmega328p microcontroller. As the PWM frequency will be somewhere under 100Hz, we chose to ommit gate drivers for the Mosfets on this prototype.
 This device can draw more than two amps at full power, for a radiant flux of 2400mW and an electrical to optical efficiency of around 20%.
 
-## The Fireball V3
+## The Fireballs V3
 
 To omit gate drivers for the Mosfets was a mistake as they can get pretty hot due to the long-ass time it takes to the gate to switch with so little current from the microcontroller pins.
 A duty cycle of 50% should do the trick, so we can trow away the microcontroller in favor of a pair of LM555 for the PWM signal. Furthermore, as the LM555 can source 200mA from its output, it should be enough to not use mosfets gate drivers
